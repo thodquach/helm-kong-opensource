@@ -42,7 +42,7 @@ admin:
     # tls: kong-admin.example.com-tls
     # Array of ingress hosts.
     hosts:
-      - kong-admin-dev.trfstg.com
+      - kong-admin-dev.xxxxxx.com
     # Map of ingress annotations.
     annotations:
       kubernetes.io/ingress.class: traefik
@@ -80,7 +80,7 @@ proxy:
     # tls: kong-proxy.example.com-tls
     # Array of ingress hosts.
     hosts:
-      - kong-proxy-dev.trfstg.com
+      - kong-proxy-dev.xxxxxx.com
     # Map of ingress annotations.
     annotations:
       kubernetes.io/ingress.class: traefik
